@@ -1,12 +1,12 @@
 name: Deploy to GitHub Pages
 
-# Auto-Deploy ist bewusst abgeschaltet, solange der Standort nicht live darf:
-# das Impressum traegt noch Platzhalter, und das Repo ist privat (Pages braucht
-# dafuer einen bezahlten Plan, der Lauf wuerde also ohnehin scheitern).
-# Wieder anschalten heisst: die zwei Zeilen unter "on:" entkommentieren.
+# Testbetrieb: Die Seite laeuft unter der Pages-Adresse, damit man sie ansehen
+# kann. Bestellen, Anmelden und der Oeffnungsstatus funktionieren dabei NICHT -
+# config.js zeigt auf einen Render-Dienst, den es noch nicht gibt. Alle drei
+# Seiten tragen deshalb noindex.
 on:
-  # push:
-  #   branches: [ main ]
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
