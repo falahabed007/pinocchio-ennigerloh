@@ -1,0 +1,60 @@
+{
+  "_quelle": "Gedruckte Karte Pizzahaus Pinocchio, Bahnhofstr. 6, Ennigerloh (PDF 'YASSER 13.09'), plus Angaben des Betreibers vom 16.09.2026.",
+  "_offen": "Alle Werte mit FEHLT_ sind noch nicht bekannt. klon-pruefen.sh meldet sie, solange sie stehen - der Standort gilt bis dahin als unfertig. Nicht stillschweigend fuellen.",
+
+  "name_lang": "Pizzahaus Pinocchio",
+  "_name_kurz": "Bleibt 'Pinocchio' - das Muster ersetzt 'Pinocchio' durch diesen Wert. Stuende hier 'Pizzahaus Pinocchio', entstuende 'Pizzahaus Pizzahaus Pinocchio'.",
+  "name_kurz": "Pinocchio",
+  "_name_gross": "Bon-Kopf in Doppelbreite, rund 16 Zeichen. 'PIZZAHAUS PINOCCHIO' bricht um, 'PINOCCHIO' passt.",
+  "name_gross": "PINOCCHIO",
+  "_name_slug": "Ersetzt das kleingeschriebene 'pinocchio' - im Code sind das die CSS-Klassen (pinocchio-header, pinocchio-btn). 'pizzahaus' vermeidet die Verwechslung mit Nordkirchen und Hamm.",
+  "name_slug": "pizzahaus",
+  "inhaber": "FEHLT_INHABER",
+
+  "strasse": "Bahnhofstr. 6",
+  "plz": "59320",
+  "ort": "Ennigerloh",
+  "ort_slug": "ennigerloh",
+
+  "telefon_anzeige": "0 25 24 / 95 17 49",
+  "telefon_href": "+492524951749",
+  "_telefon_zweit": "Die Karte nennt zweitens 0 25 24 / 26 72 72. Sie steht bewusst nirgends im System - Bon, Kopfbereich und Mails fuehren nur die Hauptnummer.",
+
+  "_domain": "Noch keine Domain. Der Betreiber liefert sie nach. Der Platzhalter ist absichtlich unbrauchbar: er steht in FRONTEND_URL, im Impressum-Link UND in info@<domain>, und keine dieser Stellen darf still mit einem Provisorium live gehen.",
+  "domain": "FEHLT_DOMAIN",
+  "render_dienst": "pizzahaus-ennigerloh",
+  "_render_dienst": "Nicht 'pinocchio-backend' - der Dienst existiert noch als Altbestand auf Render und ein Blueprint-Deploy wuerde hineinlaufen. Der Wert lautet 'pizzahaus-ennigerloh', nicht 'pinocchio-ennigerloh': ersetzen.js setzt zuerst den Dienstnamen und danach name_slug, und das kleingeschriebene 'pinocchio' im frisch gesetzten Namen wird dabei noch einmal zu 'pizzahaus'.",
+
+  "_farbe": "Das dunkle Rot der Kategorieueberschriften der gedruckten Karte, gemessen aus dem PDF.",
+  "farbe": "#780C13",
+  "_css_praefix": "Nicht 'pino' - das ergaebe --pino- und damit genau das Muster, mit dem klon-pruefen.sh Reste der Vorlage sucht.",
+  "css_praefix": "pizzahaus",
+
+  "whatsapp": "FEHLT_WHATSAPP",
+  "whatsapp_anzeige": "FEHLT_WHATSAPP",
+  "rabattcode": "FEHLT_RABATTCODE",
+
+  "_ustid": "Am 16.09.2026 offen. Leer heisst: ersetzen.js nimmt die Zeile aus dem Impressum - besser als Nordkirchens rotes [noch eintragen]. Vor dem Livegang klaeren, ob eine vorliegt oder Kleinunternehmer nach § 19 UStG.",
+  "ustid": "",
+  "aufsichtsbehoerde": "Ordnungsamt der Stadt Ennigerloh, Rathaus, Marktplatz 1, 59320 Ennigerloh",
+
+  "_logo": "Die gedruckte Karte zeigt dieselbe Pinocchio-Figur wie Nordkirchen; beide Standorte fuehren die Marke Pinocchio. Vom Betreiber am 16.09.2026 entschieden, die eingebettete Figur zu behalten.",
+  "logo_uebernommen": true,
+  "logo_grund": "Gleiche Marke Pinocchio, vom Betreiber am 16.09.2026 so entschieden.",
+
+  "_palette": "Direkt aus dem PDF gemessen: grund ist der Papierton der Karte (#CCC1AD, unveraendert), flaeche der Ton ihrer Cremefelder, akzent das Dunkelrot der Kategorieueberschriften. Erster Versuch hatte flaeche auf #FBF8F2 - fast weiss - und weil flaeche 96x und grund nur 2x vorkommt, sah die Seite weiss aus statt nach der Karte. rot und gruen sind gegenueber der Vorlage abgedunkelt, damit sie auf dem waermeren Grund noch 4.5:1 tragen.",
+  "palette": {
+    "dunkel": false,
+    "grund": "#CCC1AD",
+    "flaeche": "#F3EADA",
+    "flaeche_2": "#E7DBC4",
+    "rahmen": "#C2B096",
+    "schrift": "#241C18",
+    "schrift_leise": "#5A5148",
+    "akzent": "#780C13",
+    "akzent_2": "#A8171F",
+    "auf_akzent": "#FFFFFF",
+    "rot": "#B71C1C",
+    "gruen": "#1B5E20"
+  }
+}

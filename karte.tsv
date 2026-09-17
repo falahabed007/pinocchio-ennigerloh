@@ -1,0 +1,238 @@
+@quelle	Gedruckte Speisekarte Pizzahaus Pinocchio, Bahnhofstr. 6, Ennigerloh (PDF "YASSER 13.09", erhalten 15.09.2026), abgetippt am 16.09.2026
+@pos_start	pizza
+@groessen	mini=20 cm	normal=28 cm	maxi=32 cm
+@extras	mini=1.5	normal=1.5	maxi=1.5
+@extras_sonder	Mozzarella=1.5	Gorgonzola=1.5
+@extras_hinweis	Extrabelag 1,50 EUR fuer alle Groessen, wie gedruckt. Vom Betreiber am 16.09.2026 bestaetigt.
+@hinweis	Maxi 32 cm wie gedruckt, vom Betreiber am 16.09.2026 bestaetigt. Die Klon-Vorlage fuehrt abweichend 31 cm - das ist dort so gewollt und wird hier NICHT angeglichen.
+# pizza	Unser Pizza Sortiment	pizza
+1	Pizza Margherita	Tomaten, Käse²	5.50	7.50	9.00
+2	Pizza Cipolla	Tomaten, Käse², Zwiebeln	6.00	8.50	10.00
+3	Pizza Funghi	Tomaten, Käse², Pilze	6.00	8.50	10.00
+4	Pizza Paprika	Tomaten, Käse², Paprika	6.00	8.50	10.00
+5	Pizza Prosciutto	Tomaten, Käse², Schinken¹	6.00	8.50	10.00
+6	Pizza Salami	Tomaten, Käse², Salami³	6.00	8.50	10.00
+7	Pizza Tonno	Tomaten, Käse², Thunfisch	6.00	8.50	10.00
+8	Pizza Tonno Cipolla	Tomaten, Käse², Thunfisch, Zwiebeln	6.50	9.00	10.50
+9	Pizza Primavera	Tomaten, Käse², Salami³, Pilze	6.50	9.00	10.50
+10	Pizza Romana	Tomaten, Käse², Schinken¹, Pilze	6.50	9.50	10.50
+11	Pizza Dallas	Tomaten, Käse², Spinat, Krabben, Knoblauch	6.50	9.50	10.50
+12	Pizza Hawaii	Tomaten, Käse², Schinken¹, Ananas	6.50	9.50	10.50
+13	Pizza Atlanta	Tomaten, Käse², Spinat, Gorgonzolakäse, Knoblauch	6.50	9.50	10.50
+14	Pizza Quattro Stagioni	Tomaten, Käse², Schinken¹, Artischocken, Paprika, Pilze	6.50	9.50	10.50
+15	Pizza Vegetaria	Frische Tomaten, Käse², Spinat, Broccoli, Zwiebeln, Paprika, Knoblauch	6.50	9.50	10.50
+16	Pizza Calzone (gefüllte Pizza)	Tomaten, Käse², Pilze, Schinken¹, Salami³	6.50	9.50	10.50
+17	Pizza Texas	Tomaten, Käse², Broccoli, Zwiebeln, Pilze, Mais	6.50	9.50	10.50
+18	Pizza Gamberetti	Tomaten, Käse², Scampi, Knoblauch, Muscheln	6.50	9.50	10.50
+19	Pizza Nach Art des Hauses	Tomaten, Käse², Schinken¹, Salami³, Pilze, Thunfisch	6.50	9.50	10.50
+20	Pizza Frutti di Mare	Tomaten, Käse², Thunfisch, Meeresfrüchte, Knoblauch	6.50	9.50	10.50
+21	Pizza Mista	Tomaten, Käse², Schinken¹, Salami³, Pilze	6.50	9.50	10.50
+22	Pizza Italia	Tomaten, Käse², Schinken¹, Thunfisch, Salami³	6.50	9.50	10.50
+23	Pizza Picante	Tomaten, Käse², Schinken¹, Artischocken, Peperoni, Kapern, Spargel, Sardellen	6.50	9.50	10.50
+24	Pizza Gorgonzola	Tomaten, Käse², Gorgonzola, Schinken¹	6.50	9.50	10.50
+25	Pizza Mozzarella	Tomaten, Käse², Mozzarellakäse	6.50	9.50	10.50
+26	Pizza 3 Formaggio	3 verschiedene Käsesorten	6.50	9.50	10.50
+27	Pizza Spaghetti	Fleischsauce, Mozzarellakäse, Spaghetti	6.50	9.50	10.50
+28	Pizza Mafiose (gefüllte Pizza)	Tomaten, Käse², Thunfisch, Artischocken, Schinken¹	6.50	9.50	10.50
+29	Pizza Muscheln	Tomaten, Käse², Thunfisch, Muscheln, Knoblauch	6.50	9.50	10.50
+30	Pizza Scampi	Tomaten, Käse², Scampi, Knoblauch	6.50	9.50	10.50
+30a	Pizza Garnelen	Tomaten, Käse², gebratene Garnelen, Knoblauch	7.50	11.00	12.50
+31	Pizza Capricciosa	Tomaten, Käse², Salami³, Kapern, Sardellen, Oliven	6.50	9.50	10.50
+32	Pizza Popeye	Frische Tomaten, Blattspinat, Mozzarella	6.50	9.50	10.50
+33	Pizza Inferno (extra scharf)	Tomaten, Käse², Schinken¹, Pilze, Artischocken	6.50	9.50	10.50
+34	Pizza Siziliana	Tomaten, Käse², Zwiebeln, Paprika, Peperoni, Knoblauch	6.50	9.50	10.50
+35	Pizza Pinocchio	Von allem etwas	6.50	9.50	10.50
+36	Pizza Broccoli	Frische Tomaten, Käse², Broccoli	6.50	9.50	10.50
+37	Pizza Vesuvia	Frische Tomaten, Käse², Ei, Paprika, Pilze, Oliven, Artischocken	6.50	9.50	10.50
+38	Pizza Tonorella	Tomaten, Käse², gekochtes Ei, Thunfisch, Zwiebeln, Peperoni	6.50	9.50	10.50
+39	Pizza Phoenix	Tomaten, Käse², Broccoli, Spinat, Pilze, Paprika	6.50	9.50	10.50
+40	Pizza Marinara	Tomaten, Käse², Salami³, Artischocken, Spargel, Paprika, Oliven, Pilze	6.50	9.50	10.50
+# pizza-broetchen	Pizza-Brötchen & Runde Pizza	simple
+41	Pizza-Brötchen	mit Knoblauchsauce oder mit Kräutermargarine	3.50
+42	Runde Pizza Käse-Knoblauch	Käse², Knoblauch	6.00
+43	Runde Pizza Knoblauch-Tomate	Knoblauch und Tomaten Sauce	5.50
+# familienpizza	Familien- & Party-Pizza	familie	nummer_zeigen=false
+F1	Familien-Pizza 50 cm	belegen wir nach Ihren Wünschen und gemischtem Salat	27.00	belegbar=true
+F2	Familien-Pizza 40 cm	belegen wir nach Ihren Wünschen	20.50	belegbar=true
+F3	Party-Pizza	Größe 60 x 40 cm, Tomaten, Käse, vier Zutaten Ihrer Wahl und gemischten Salat	31.50	belegbar=true
+# klein-aber-fein	Klein aber fein	simple
+704	Gefüllte Pizzabrötchen	mit Käse² & Salami³, alternativ Käse² & Schinken¹, alternativ Käse² & Thunfisch (gefüllt)	7.00
+705	Käsetasche	mit Käse²	7.00
+706	Käsetasche Feta	mit Fetakäse	7.00
+707	Spinat-Tasche	mit Käse² und Spinat	7.50
+708	Spezial-Tasche	mit Ananas & Mozzarella	7.50
+# neue-pizzen	Neue Pizzen	pizza
+44	Pizza Lachs	Tomaten, Käse², Lachs, Spinat, Knoblauch	6.50	9.50	11.00
+45	Pizza Chicken	Tomaten, Käse², Hähnchenfleisch, Ananas	6.50	9.50	11.00
+46	Pizza Bolognese	Fleischsauce, Käse²	6.50	9.50	11.00
+# pizza-spezial	Pizza Spezial	pizza	note=Schinken – Formvorderschinken
+99	Pizza Amore	Tomaten, Käse², Mozzarella, Spinat, Zwiebeln, frischer Paprika, Knoblauch	6.50	9.50	11.50
+100	Pizza Ramacca	Tomaten, Käse², Zwiebeln, frische Pilze, frischer Paprika, Knoblauch	6.50	9.50	11.50
+101	Pizza Jungfrau	Tomaten, Käse², frischer Paprika, Spargel, Mais	6.50	9.50	11.50
+102	Pizza Widder	Tomaten, Käse², Spinat, Knoblauch, Spiegelei	6.50	9.50	11.50
+103	Pizza Calzone Spezial	Tomaten, Käse², Spinat, Broccoli, Champignons, Knoblauch	6.50	9.50	11.50
+# pizza-gyros	Pizza Gyros	pizza
+113	Pizza Miami	Tomaten, Käse², Gyros, Zwiebeln	6.50	10.50	11.50
+114	Pizza Santa Fe	Tomaten, Käse², Gyros, Fetakäse und fr. Tomaten	6.50	10.50	11.50
+115	Pizza Alaska	Tomaten, Käse², Gyros, Peperoni, Salami³	6.50	10.50	11.50
+116	Pizza Manhattan	Tomaten, Käse², Gyros, Zwiebeln, Salat, fr. Tomaten, Gurken, Joghurt (nach dem Backofen)	6.50	10.50	11.50
+# pizza-haehnchen	Pizza mit Hähnchenfleisch	pizza	note=Und Gemüse – scharf oder normal nach Wahl
+117	Pizza Hongkong	Tomaten, Käse², Hähnchenfleisch, Zwiebeln, Gemüse	6.50	10.50	11.50
+118	Pizza Tokio	Tomaten, Käse², Hähnchenfleisch, Schinken¹, Ananas, Gemüse	6.50	10.50	11.50
+119	Pizza Bangkok	Tomaten, Käse², Hähnchenfleisch, Thunfisch, Zwiebeln, Gemüse	6.50	10.50	11.50
+120	Pizza Shanghai	Tomaten, Käse², Hähnchenfleisch, Zwiebeln, Gemüse + (Salat, fr. Tomaten, Gurken, Joghurt) nach dem Backofen	6.50	10.50	11.50
+# pizza-hollandaise	Pizzen a la Hollandaise	pizza
+121	Pizza Palermo	Sahnesauce, Krabben, Knoblauch, Käse², Sc. Hollandaise	6.50	10.50	11.00
+122	Pizza Diavolo	Sauce Hollandaise, Broccoli, Spargel, Schinken¹	6.50	10.50	11.00
+# pizza-rucola	Pizza Rucola	pizza
+201	Pizza Rucola (Schinken)	Schinken¹, Rucola, fr. Tomaten, Käse²	6.50	9.50	11.50
+202	Pizza Rucola (Champignons)	Champignons, Rucola, frische Tomaten, Käse²	6.50	9.50	11.50
+203	Pizza Rucola (Mozzarella)	Mozzarella, Rucola, frische Tomaten, Käse²	6.50	9.50	11.50
+# pizza-doener	Pizza mit Dönerfleisch	pizza	note=Mini-, normale und Maxi-Pizza: 1,50 € extra für Mozzarella und Gorgonzola
+204	Pizza mit Dönerfleisch Mais-Brokkoli	Tomaten, Käse², Mais, Hollandaise, Dönerfleisch, Brokkoli	7.00	10.50	11.50
+205	Pizza mit Dönerfleisch Jalapeños	Tomaten, Käse², Zwiebeln, Jalapenos, fr. Tomaten, Dönerfleisch	7.00	10.50	11.50
+206	Pizza mit Dönerfleisch Schafskäse	Tomaten, Käse², Dönerfleisch, Schafskäse, Peperoni, Paprika, Zwiebeln	7.00	10.50	11.50
+207	Döner Calzone	Tomaten, Käse², Dönerfleisch, Hollandaise, BBQ-Sauce, Zwiebeln, Peperoni	7.00	10.50	11.50
+208	Pizza Sucuk	Käse², Knoblauchwurst, Peperoni und Spiegelei	7.00	10.50	11.50
+# american-pizza	American Pizza	pizza
+209	New York	Barbeque-Sauce, Käse², Mozzarella, Paprika, Mais, Zwiebeln, Tabasco	7.50	11.00	12.50
+210	California	Curry-Sauce, Käse², Mozzarella, Hähnchenbrust, Ananas	7.50	11.00	12.50
+211	Key West	Barbeque-Sauce, Käse², Mozzarella, Hähnchenbrust, frische Paprika, Mais	7.50	11.00	12.50
+212	Barbecue	Barbeque-Sauce, Käse², Mozzarella, Pfannengyros, Peperoni, Oliven	7.50	11.00	12.50
+213	Grand Canyon	Barbeque-Sauce, Käse², Mozzarella, fr. Tomaten, Bacon, Champignons, Zwiebeln	7.50	11.00	12.50
+# spaghetti	Spaghetti	simple	note=Alle Gerichte mit Pizzabrötchen, Knoblauchsauce und Kräutermargarine
+47	Spaghetti Bolognese	Fleischsauce	9.00
+48	Spaghetti alla Panna	Schinken¹, Sahnesauce	9.00
+49	Spaghetti alla Napolitana	Tomatensauce	8.50
+50	Spaghetti Carbonara	Schinken¹, Sahnesauce, Ei	9.50
+51	Spaghetti della Casa	Schinken¹, frische Champignons, Erbsen, Tomatensauce	9.50
+52	Spaghetti Frutti di Mare	Meeresfrüchte, Knoblauch, Tomatensauce	9.50
+53	Spaghetti Vegetaria	Erbsen, Spinat, Sahnesauce	9.50
+54	Spaghetti Gamberetti	Scampi, Knoblauch, Tomatensauce	9.50
+55	Spaghetti Tonno	Thunfisch, Knoblauch, Tomatensauce	9.50
+56	Spaghetti a la Gorgonzola	Sahne, Gorgonzola, Schinken¹	9.50
+57	Spaghetti Italia	Spinat, Sahnesauce, Gorgonzola	9.50
+58	Spaghetti a la Panna 2	Schinken¹, Sahnesauce, frische Champignons	9.50
+59	Spaghetti Vegetaria 2	Erbsen, Spinat, frische Champignons, Sahnesauce	9.50
+# rigatoni	Rigatoni	simple
+60	Rigatoni Bolognese	Fleischsauce	9.50
+61	Rigatoni Italia	Schinken¹, frische Champignons, Erbsen, Tomatensauce	9.00
+62	Rigatoni quattro formaggi	4 verschiedene Käsesorten²	9.50
+63	Rigatoni Vegetaria	Erbsen, Sahnesauce	9.50
+64	Rigatoni nach Art des Hauses	Tomatensauce spezial, Sahne, Zwiebeln, frische Champignons	9.50
+# tortellini	Tortellini	simple
+65	Tortellini Bolognese	Fleischsauce	9.50
+66	Tortellini alla Panna	Schinken¹, Sahnesauce	9.50
+67	Tortellini Carbonara	Schinken¹, Käse², Sahnesauce, Ei	9.50
+68	Tortellini alla Pinocchio	Schinken¹, frische Champignons, Erbsen, Tomatensauce	9.50
+69	Tortellini Gorgonzola	Erbsen, Broccoli, Sahnesauce, Gorgonzola	9.50
+70	Tortellini nach Art des Hauses	Tomatensauce spezial, Sahne, Zwiebeln, frische Champignons, Schinken¹	9.50
+# backofen	Nudelgerichte aus dem Backofen	simple
+71	Lasagne	Schinken¹, Fleischsauce, Käse²	9.50
+72	Lasagne Vegetaria	Tomaten, Broccoli, Erbsen, Spinat, Sahnesauce	10.00
+73	Tris	Lasagne, Rigatoni, Tortellini, Fleischsauce, Käse²	9.50
+74	Tortellini alla Panna (überbacken)	Schinken¹, Broccoli, Sahnesauce, Käse²	10.00
+75	Tortellini al Forno	Fleischsauce, Schinken¹, Käse²	9.50
+76	Tortellini Italia	Tomatensauce, frische Champignons, Schinken¹, Erbsen, Spezial-Sahnesauce	10.00
+77	Rigatoni Carbonara	Sahnesauce, Schinken¹, Käse², Ei	9.50
+78	Rigatoni al Forno	Fleischsauce, Käse²	9.50
+79	Rigatoni Italia (überbacken)	Tomaten, frische Champignons, Schinken¹, Erbsen, Spezial-Sahnesauce, Käse²	10.00
+80	Spaghetti al Forno	Fleischsauce, Käse²	9.50
+81	Spaghetti Carbonara (überbacken)	Schinken¹, Sahnesauce, Käse², Ei	9.50
+82	Spaghetti Italia (überbacken)	Tomatensauce, frische Champignons, Schinken¹, Erbsen, Spezial-Sahnesauce	10.00
+# nudeln-vegetarisch	Vegetarische Nudelgerichte	simple
+104	Rigatoni Pinocchio	Spinat, Broccoli, frische Pilze, Mozzarella, im Ofen gebacken	10.00
+105	Tortellini Rustikal	Spinat, Broccoli, frische Pilze, Mozzarella im Ofen überbacken	10.00
+106	Spaghetti Vegetaria (überbacken)	Spinat, Broccoli, Champignons, Mozzarella im Ofen überbacken	10.00
+107	Bandnudeln Vegetaria	Spinat, Broccoli, Champignons, Mozzarella im Ofen überbacken	10.00
+# gemuese-auflaeufe	Gemüse Aufläufe	simple
+108	Broccoli-Auflauf	Broccoli, Schinken¹, Nudeln, Sahnesauce mit Käse², überbacken	10.00
+109	Gemüse di Pomodoro	frische Tomaten, frische Paprika, Broccoli, Zwiebeln, Nudeln mit Käse², überbacken	10.00
+110	Gemüse-Spezialität	frische Champignons, Artischocken, Nudeln, frische Paprika, Spinat, Erbsen, Sahnesauce mit Käse², überbacken	10.00
+111	Blumenkohl-Auflauf	Blumenkohl, Schinken¹, Nudeln, Sahnesauce mit Käse², überbacken	10.00
+112	Champignon-Auflauf	frische Champignons, Zwiebeln, Nudeln, Sahnesauce mit Käse², überbacken	10.00
+# gnocchi	Gnocchi	simple	note=Alle Gerichte mit Pizzabrötchen, Knoblauchsauce und Kräutermargarine
+123	Gnocchi Vegetarier	Spinat, Broccoli, Champignons, Tomatensauce, Mozzarella	10.00
+124	Gnocchi Formaggio	drei verschiedene Käsesorten²	10.00
+125	Gnocchi alla Panna	Schinken¹, Sahnesauce	10.00
+# gefluegel	Geflügelgerichte	simple	note=Alle Geflügelgerichte mit Pizzabrötchen, Knoblauchsauce und Kräutermargarine
+138	Hähnchengeschnetzeltes	mit Makkaroni, Currysauce, Ananas	10.50
+139	Hähnchengeschnetzeltes 2	mit Makkaroni, frischen Pilzen in Sahnesauce	10.50
+140	Hähnchengeschnetzeltes 3	mit Makkaroni, Zwiebeln in Tomatensauce	10.50
+141	Hähnchengeschnetzeltes 4	mit Makkaroni, frischen Tomaten, frischen Pilzen in Sahnesauce	10.50
+142	Hähnchengeschnetzeltes 5	mit Makkaroni, Erbsen, Broccoli, Knoblauch in Tomatensauce	10.50
+96	Putengeschnetzeltes	mit Makkaroni, frischen Pilzen in Sahnesauce	10.50
+97	Putengeschnetzeltes 2	mit Makkaroni in Currysauce	10.50
+98	Putengeschnetzeltes 3	mit Makkaroni, frischen Tomaten, frischen Pilzen in Sahnesauce	10.50
+159	Putengeschnetzeltes 4	Brustfilet gegrillt, Zwiebeln, fr. Paprika, fr. Tomaten, gem. Salat u. Brötchen	11.50
+160	Pute al Forno	mit Broccoli, frischen Pilzen in Currysauce, mit Käse² überbacken, gem. Salat u. Brötchen	11.50
+161	Putenauflauf	mit frischen Pilzen, Zwiebeln in Sahnesauce, mit Käse² überbacken, gem. Salat u. Brötchen	11.50
+# spaghetti-haus	Spaghetti des Hauses	simple
+162	Spaghetti Caprese	gebratene Spaghetti mit Tomaten, Knoblauch, Basilikum, Mozzarella und Hähnchenbrustfilet	10.50
+163	Spaghetti Aglio Olio e Peperoncino	gebratene Spaghetti mit Peperoni, Broccoli, Erbsen und Hähnchenbrustfilet in Sahnesauce	10.50
+164	Spaghetti de la Chef	gebratene Spaghetti mit Zwiebeln, frischen Champignons und Hähnchenbrustfilet in Currysauce	10.50
+# bandnudeln	Bandnudeln	simple
+165	Bandnudeln	Schinken¹ und Sahnesauce	10.00
+166	Bandnudeln quattro Formaggi	mit vier verschiedenen Käsesorten²	10.00
+167	Bandnudeln Gorgonzola	Spinat, Gorgonzola-Sauce	10.00
+168	Bandnudeln Siziliana	Schinken¹, Erbsen, frische Champignons und Tomatensauce	10.00
+# tris	Tris	simple
+169	Drei verschiedene Nudelsorten	drei verschiedene Saucen und drei verschiedene Käsesorten überbacken	10.00
+# neue-gerichte	Neue Gerichte	simple
+709	Salmone al Gorgonzola	Schinken¹ und geräucherter Lachs mit Gorgonzola-Sahnesauce, überbacken, dazu Bandnudeln	12.50
+710	Maccaroni in Lachs	geräucherter Lachs in Sahnesauce	12.50
+711	Maccaroni in Lachs 2	geräucherter Lachs, Broccoli, Knoblauch und Sahnesauce	12.50
+# kartoffelauflauf	Kartoffelauflauf	simple
+712	Kartoffelauflauf Italia	Kartoffeln, Hähnchen, Paprika, Brokkoli, Zwiebeln, Currysauce und mit Käse² überbacken	12.00
+713	Kartoffelauflauf	Kartoffeln, Hähnchen, Sahnesauce und mit Käse² überbacken	12.00
+714	Kartoffelauflauf Adria	Kartoffeln, gegrillter Lachs, Spinat, Knoblauch, Sahnesauce und mit Käse² überbacken	12.50
+# salate	Salate	simple	note=Alle Salate wahlweise mit Essig und Öl, Cocktail- oder Spezial-Sauce
+83	Insalata Mista	Tomaten, Gurken, Salat	7.00
+83a	Salat gemischt	Tomaten, Gurken, Zwiebeln, Oliven, Peperoni, Fetakäse²	9.00
+84	Insalata Pomodoro Cipolla	Tomaten mit Zwiebeln	7.00
+85	Insalata di Cipolla	Gurken, Salat, Zwiebeln	7.00
+86	Insalata Primavera	Tomaten, Gurken, Salat, Käse², Schinken¹, Salami³, Thunfisch, Spezialsauce	10.00
+87	Insalata de la Casa	Tomaten, Gurken, Salat, Käse², Zwiebeln, Thunfisch, Ei, Spezialsauce	10.00
+88	Insalata Roma	Tomaten, Gurken, Salat, Käse², Artischocken, Schinken¹, Thunfisch, Spezialsauce	10.00
+89	Insalata Italia	Tomaten, Gurken, Salat, Käse², Artischocken, Oliven, Thunfisch, Zwiebeln, Paprika, Spezialsauce	10.00
+90	Insalata Frutti di Mare	Salat, Gurken, Tomaten, Käse², Thunfisch, Paprika, Zwiebeln, Krabben, Muscheln, Spezialsauce	10.00
+90a	Garnelen-Salat	Tomaten, Gurken, Salat, Mais, Zwiebeln, Peperoni, Oliven, gegrillte Garnelen	11.50
+91	Insalata Pinocchio	Tomaten, Gurken, Salat, Käse², Paprika, Zwiebeln, Artischocken, Erbsen, Mais, Möhren, Spezialsauce	10.00
+92	Insalata Hawaii	Tomaten, Gurken, Salat, Ananas, Spargel, Mais, Käse², Spezialsauce, Schinken¹	10.00
+93	Insalata al Formaggio	gemischter Salat mit Fetakäse, Mozzarella und Gouda	10.00
+94	Insalata Milano	gemischter Salat, Fetakäse, Ananas, Mais, Paprika	10.00
+95	Insalata de la Chef	Tomaten, Gurken, Salat, Putenfleisch, Fetakäse, in Joghurt-Currysauce	10.50
+150	Insalata Lachs	Salat, Tomaten, Gurken, Zwiebeln, Oliven, Peperoni, Lachsfilet	10.50
+151	Insalata Kentucky	knuspriges Hähnchenbrustfilet, Tomaten, Gurken, Ananas, Salat	10.00
+152	Tomaten-Mozzarella-Salat	Eisbergsalat, Tomaten, Mozzarella, Olivenöl, Zitrone, Basilikum	11.00
+153	Shrimps-Salat	Tomaten, Gurken, Salat, Mais, Zwiebeln, Peperoni, Oliven, Scampis	11.00
+# neue-salate	Neue Salate	simple
+170	Insalata Amore	Paprika, Zwiebeln, Artischocken, Oliven, rote Bohnen, Hähnchenbrustfilet, Cocktailsauce	10.50
+171	Insalata Caprese	Artischocken, Zwiebeln, Paprika, rote Bohnen, Hähnchenbrustfilet in Cocktailsauce	10.50
+172	Insalata Siziliana	Thunfisch, Zwiebeln, Peperoni, Oliven, rote Bohnen, Hähnchenbrustfilet, Käse² in Cocktailsauce	10.50
+173	Insalata Mamma Mia	Fetakäse, Mais, Möhren, Zwiebeln, rote Bohnen, Hähnchenbrustfilet, Cocktailsauce	10.50
+# getraenke	Getränke	simple
+400	Coca Cola 0,33 l		2.50
+401	Coca Cola Zero 0,33 l		2.50
+402	Fanta 0,33 l		2.50
+403	Sprite 0,33 l		2.50
+404	Apfelschorle 0,33 l		2.50
+405	Wasser 0,3 l		2.50
+	Coca Cola 1,0 l		3.50
+	Coca Cola Zero 1,0 l		3.50
+	Fanta 1,0 l		3.50
+	Sprite 1,0 l		3.50
+# mittagspizza	Mittagspizza	pizza	nur_mittags=true	nummer_zeigen=false	note=Mo–Fr 11:30–14:30 Uhr
+MP	Mittagspizza nach Wahl	Mini 20 cm, Normal 28 cm oder Maxi 32 cm	6.00	8.50	9.50
+# mittagsmenue	Mittagsmenü	simple	nur_mittags=true	nummer_zeigen=false	note=Mo–Fr 11:30–14:30 Uhr
+M1	Menü 1	1x normale Pizza 28 cm, 1x kleiner Salat	9.00
+M2	Menü 2	1x Nudelgericht, 1x Pizza-Brötchen	9.00
+M3	Menü 3	1x großer Salat, 1x Pizza-Brötchen	9.00
+M4	Menü 4	1x Putengeschnetzeltes, 1x Pizza-Brötchen	9.00
+M5	Menü 5	1x Hähnchengeschnetzeltes, 1x Pizza-Brötchen	9.00
+M6	Menü 6	1x kleine Pizza nach Wahl, 1x kleiner gem. Salat	9.00
+# angebote	Pinocchio Dauer-Angebote	simple	nummer_zeigen=false
+A1	Angebot 1	2x Pizzen normal nach Wahl, 1x großer gem. Salat nach Wahl, 1x Flasche Cola 1 l	28.50
+A2	Angebot 2	2x Nudelgerichte nach Wahl, 1x großer gem. Salat nach Wahl, 1x Flasche Cola 1 l	28.50
+A3	Angebot 3	1x 40er Pizza nach Wahl, 1x großer gem. Salat nach Wahl, 1x Flasche Cola 1 l	28.50
+A4	Angebot 4	2x Hähnchengeschnetzeltes nach Wahl, 1x großer gem. Salat nach Wahl, 1x Flasche Cola 1 l	28.50
