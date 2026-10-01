@@ -21,7 +21,7 @@
   "_telefon_zweit": "Die Karte nennt zweitens 0 25 24 / 26 72 72. Sie steht bewusst nirgends im System - Bon, Kopfbereich und Mails fuehren nur die Hauptnummer.",
 
   "_domain": "Noch keine Domain. Der Betreiber liefert sie nach. Der Platzhalter ist absichtlich unbrauchbar: er steht in FRONTEND_URL, im Impressum-Link UND in info@<domain>, und keine dieser Stellen darf still mit einem Provisorium live gehen.",
-  "domain": "FEHLT_DOMAIN",
+  "domain": "pinocchio-ennigerloh.com",
   "render_dienst": "pizzahaus-ennigerloh",
   "_render_dienst": "Nicht 'pinocchio-backend' - der Dienst existiert noch als Altbestand auf Render und ein Blueprint-Deploy wuerde hineinlaufen. Der Wert lautet 'pizzahaus-ennigerloh', nicht 'pinocchio-ennigerloh': ersetzen.js setzt zuerst den Dienstnamen und danach name_slug, und das kleingeschriebene 'pinocchio' im frisch gesetzten Namen wird dabei noch einmal zu 'pizzahaus'.",
 

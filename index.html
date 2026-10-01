@@ -2703,7 +2703,7 @@ function togglePaymentLogos() {
 // Auf true setzen, um Stripe und PayPal wieder anzubieten. Die Backend-
 // Endpunkte /api/create-stripe-checkout, /api/create-paypal-order und die
 // beiden Webhooks bleiben bestehen, ebenso die ENV-Variablen in render.yaml.
-window.ONLINE_ZAHLUNG_AKTIV = true;   // Barzahlung + Stripe, kein PayPal (16.09.2026)
+window.ONLINE_ZAHLUNG_AKTIV = false;  // Nur Barzahlung/POS fuer die Vertriebs-Demo (01.10.2026), kein Stripe konfiguriert
 
 function applyZahlungsarten() {
   var sel = document.getElementById('c-zahlung');
@@ -2909,7 +2909,7 @@ if (!window.FLUEVATE_BACKEND) {
 function getPageUrl() {
     const loc = window.location;
     if (loc.protocol === 'file:') {
-        return 'https://FEHLT_DOMAIN';
+        return 'https://pinocchio-ennigerloh.com';
     }
     return loc.origin + loc.pathname;
 }
@@ -4394,7 +4394,7 @@ function confirmFamSelection() {
   <p style="font-size:.75rem;color:var(--pizzahaus-schrift-leise);margin:0;">
     Pizzahaus Pinocchio &middot; Bahnhofstr.&nbsp;6 &middot; 59320 Ennigerloh &middot;
     &#9742; 0&nbsp;25&nbsp;24&nbsp;/&nbsp;95&nbsp;17&nbsp;49 &middot;
-    <a href="https://FEHLT_DOMAIN" style="color:var(--pizzahaus-rot);">FEHLT_DOMAIN</a>
+    <a href="https://pinocchio-ennigerloh.com" style="color:var(--pizzahaus-rot);">pinocchio-ennigerloh.com</a>
   </p>
   <p style="font-size:.72rem;color:var(--pizzahaus-schrift-leise);margin:10px 0 0;">
     Made by <a href="https://www.fluevate.de" target="_blank" rel="noopener"
@@ -4411,7 +4411,7 @@ LEGAL.impressum = {
        + "<p><strong>Pizzahaus Pinocchio</strong><br>Bahnhofstr.&nbsp;6<br>59320 Ennigerloh<br>Deutschland</p>"
        + "<p style='margin-top:12px'><strong>Kontakt</strong><br>"
        + "Tel: <a href='tel:+492524951749' style='color:var(--pizzahaus-rot)'>0&nbsp;25&nbsp;24&nbsp;/&nbsp;95&nbsp;17&nbsp;49</a><br>"
-       + "Web: <a href='https://FEHLT_DOMAIN' style='color:var(--pizzahaus-rot)'>FEHLT_DOMAIN</a></p>"
+       + "Web: <a href='https://pinocchio-ennigerloh.com' style='color:var(--pizzahaus-rot)'>pinocchio-ennigerloh.com</a></p>"
        + "<p style='margin-top:12px'><strong>Inhaber:</strong> FEHLT_INHABER</p>"
        + "<p><strong>Aufsichtsbeh&ouml;rde:</strong> Ordnungsamt der Stadt Ennigerloh, Rathaus, Marktplatz 1, 59320 Ennigerloh</p>"
        + "<h3 style='color:var(--pizzahaus-rot);margin:20px 0 10px'>&Ouml;ffnungszeiten</h3>"
@@ -4438,7 +4438,7 @@ LEGAL.datenschutz = {
   text:  "<h3 style='color:var(--pizzahaus-rot);margin:0 0 14px'>Datenschutz (DSGVO)</h3>"
        + "<h4 style='color:var(--pizzahaus-rot);margin:0 0 6px;font-size:.92rem'>1. Verantwortlicher</h4>"
        + "<p>Pizzahaus Pinocchio, Inhaber FEHLT_INHABER &middot; Bahnhofstr.&nbsp;6 &middot; 59320 Ennigerloh<br>"
-       + "Tel: <a href='tel:+492524951749' style='color:var(--pizzahaus-rot)'>0 25 24 / 95 17 49</a> &middot; info@FEHLT_DOMAIN</p>"
+       + "Tel: <a href='tel:+492524951749' style='color:var(--pizzahaus-rot)'>0 25 24 / 95 17 49</a> &middot; info@pinocchio-ennigerloh.com</p>"
        + "<h4 style='color:var(--pizzahaus-rot);margin:16px 0 6px;font-size:.92rem'>2. Erhobene Daten bei Bestellung</h4>"
        + "<ul style='margin:6px 0 8px 18px;color:var(--pizzahaus-schrift);line-height:1.85'>"
        + "<li>Vor- und Nachname, Telefonnummer</li>"
@@ -4460,7 +4460,7 @@ LEGAL.datenschutz = {
        + "<p>Keine Tracking-Cookies. Nur technisch notwendige Session-Daten (Warenkorb) im Browser &ndash; kein Versand an Server.</p>"
        + "<h4 style='color:var(--pizzahaus-rot);margin:16px 0 6px;font-size:.92rem'>5. Ihre Rechte (Art.&nbsp;15&ndash;22 DSGVO)</h4>"
        + "<p>Auskunft &middot; Berichtigung &middot; L&ouml;schung &middot; Einschr&auml;nkung &middot; Widerspruch &middot; Daten&uuml;bertragbarkeit<br>"
-       + "Kontakt: info@FEHLT_DOMAIN<br>"
+       + "Kontakt: info@pinocchio-ennigerloh.com<br>"
        + "Beschwerde: <a href='https://www.ldi.nrw.de' target='_blank' style='color:var(--pizzahaus-rot)'>Landesbeauftragte f&uuml;r Datenschutz NRW</a></p>"
        + "<p style='margin-top:18px;font-size:.73rem;color:var(--pizzahaus-schrift-leise)'>Stand: M&auml;rz 2026</p>"
 };

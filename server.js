@@ -65,7 +65,7 @@ function getResend() {
 // Die einzige Stelle, an der die Domain steht. Sie wurde vorher sechsmal
 // getippt, waehrend FRONTEND_URL zwar in .env und render.yaml stand, aber
 // nie gelesen wurde - ein Umzug haette funf Stellen stumm veralten lassen.
-const FRONTEND = process.env.FRONTEND_URL || 'https://FEHLT_DOMAIN';
+const FRONTEND = process.env.FRONTEND_URL || 'https://pinocchio-ennigerloh.com';
 
 // ─── CORS ────────────────────────────────────────────────────────
 const allowedOrigins = [
@@ -1232,7 +1232,7 @@ async function sendConfirmationEmail(order, mins) {
   }).join('');
   try {
     await getResend()?.emails.send({
-      from: process.env.EMAIL_FROM || 'bestellungen@FEHLT_DOMAIN',
+      from: process.env.EMAIL_FROM || 'bestellungen@pinocchio-ennigerloh.com',
       to:   order.customer.email,
       subject: `✅ Bestellung #${order.orderNum} bestätigt – Pizzahaus Pinocchio`,
       html: `<div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto">
@@ -1281,7 +1281,7 @@ async function sendRestaurantEmail(order) {
   }).join('\n');
   try {
     await getResend()?.emails.send({
-      from: process.env.EMAIL_FROM||'bestellungen@FEHLT_DOMAIN',
+      from: process.env.EMAIL_FROM||'bestellungen@pinocchio-ennigerloh.com',
       to:   process.env.RESTAURANT_EMAIL,
       subject: `🔔 Bestellung #${order.orderNum} – ${order.mode==='lieferung'?'Lieferung':'Abholung'}`,
       html: `<pre style="font-family:monospace;font-size:13px">BESTELLUNG #${order.orderNum} · ${order.source==='pos'?'POS':'ONLINE'}
@@ -1315,7 +1315,7 @@ async function sendCancellationEmail(order, reason, refundStatus) {
        </div>` : '';
   try {
     await getResend()?.emails.send({
-      from: process.env.EMAIL_FROM||'bestellungen@FEHLT_DOMAIN',
+      from: process.env.EMAIL_FROM||'bestellungen@pinocchio-ennigerloh.com',
       to:   order.customer.email,
       subject: `❌ Bestellung #${order.orderNum} storniert – Pizzahaus Pinocchio`,
       html: `<div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto">
@@ -1751,7 +1751,7 @@ cron.schedule('0 22 * * *', async () => {
 
     if (process.env.RESTAURANT_EMAIL) {
       await getResend()?.emails.send({
-        from: process.env.EMAIL_FROM || 'system@FEHLT_DOMAIN',
+        from: process.env.EMAIL_FROM || 'system@pinocchio-ennigerloh.com',
         to: process.env.RESTAURANT_EMAIL,
         subject: `📋 Tagesbericht ${label} · Pizzahaus Pinocchio`,
         html: `<div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto;color:#222">
@@ -1856,7 +1856,7 @@ async function wochenberichtVersenden(now, { nurOwner = false } = {}) {
   // ── E-Mail 1: Restaurant bekommt Wochenbericht als PDF-Anhang ────────
   if (resend && process.env.RESTAURANT_EMAIL && !nurOwner) {
     const antwort = await resend.emails.send({
-      from: process.env.EMAIL_FROM || 'system@FEHLT_DOMAIN',
+      from: process.env.EMAIL_FROM || 'system@pinocchio-ennigerloh.com',
       to: process.env.RESTAURANT_EMAIL,
       subject: `📊 Wochenbericht KW ${kw} / ${now.getFullYear()} · Pizzahaus Pinocchio`,
       html: `<div style="font-family:Arial,sans-serif;max-width:580px;margin:0 auto;color:#222">
@@ -1883,7 +1883,7 @@ async function wochenberichtVersenden(now, { nurOwner = false } = {}) {
   // ── E-Mail 2: Owner bekommt den Wochenbericht als Anhang ──────
   if (resend && process.env.OWNER_EMAIL) {
     const antwort = await resend.emails.send({
-      from: process.env.EMAIL_FROM || 'system@FEHLT_DOMAIN',
+      from: process.env.EMAIL_FROM || 'system@pinocchio-ennigerloh.com',
       to: process.env.OWNER_EMAIL,
       subject: `📊 Wochenbericht KW ${kw} · Pizzahaus Pinocchio`,
       html: `<p style="font-family:Arial,sans-serif;color:#555">Anbei der Wochenbericht KW ${kw} / ${now.getFullYear()} für Pizzahaus Pinocchio.</p>
@@ -2013,7 +2013,7 @@ cron.schedule('0 22 * * *', async () => {
     // ── E-Mail: Restaurant ────────────────────────────────────────────────
     if (process.env.RESTAURANT_EMAIL) {
       await getResend()?.emails.send({
-        from: process.env.EMAIL_FROM || 'system@FEHLT_DOMAIN',
+        from: process.env.EMAIL_FROM || 'system@pinocchio-ennigerloh.com',
         to:   process.env.RESTAURANT_EMAIL,
         subject: `📅 Monatsbericht ${monat} · Pizzahaus Pinocchio`,
         html: `<div style="font-family:Arial,sans-serif;max-width:580px;margin:0 auto;color:#222">
@@ -2038,7 +2038,7 @@ cron.schedule('0 22 * * *', async () => {
     // ── E-Mail: Owner ─────────────────────────────────────────────────────
     if (process.env.OWNER_EMAIL) {
       await getResend()?.emails.send({
-        from: process.env.EMAIL_FROM || 'system@FEHLT_DOMAIN',
+        from: process.env.EMAIL_FROM || 'system@pinocchio-ennigerloh.com',
         to: process.env.OWNER_EMAIL,
         subject: `📅 Monatsbericht ${monat} · Pizzahaus Pinocchio`,
         html: `<p style="font-family:Arial,sans-serif;color:#555">Anbei der Monatsbericht <b>${monat}</b> für Pizzahaus Pinocchio.</p>
@@ -2128,7 +2128,7 @@ app.post('/api/admin/send-monthly', auth, async (req, res) => {
 
     if (process.env.RESTAURANT_EMAIL) {
       await getResend()?.emails.send({
-        from: process.env.EMAIL_FROM || 'system@FEHLT_DOMAIN',
+        from: process.env.EMAIL_FROM || 'system@pinocchio-ennigerloh.com',
         to: process.env.RESTAURANT_EMAIL,
         subject: `📅 Monatsbericht ${monat} · Pizzahaus Pinocchio`,
         html: `<p style="font-family:Arial,sans-serif">Manuell ausgelöster Monatsbericht für <b>${monat}</b>.<br>${orders.length} Bestellungen · Auszahlung: ${auszahlung.toFixed(2).replace('.',',')} €</p>`,
@@ -2137,7 +2137,7 @@ app.post('/api/admin/send-monthly', auth, async (req, res) => {
     }
     if (process.env.OWNER_EMAIL) {
       await getResend()?.emails.send({
-        from: process.env.EMAIL_FROM || 'system@FEHLT_DOMAIN',
+        from: process.env.EMAIL_FROM || 'system@pinocchio-ennigerloh.com',
         to: process.env.OWNER_EMAIL,
         subject: `📅 Monatsbericht ${monat} · Pizzahaus Pinocchio`,
         html: `<p style="font-family:Arial,sans-serif;color:#555">Manuell ausgelöst: Monatsbericht <b>${monat}</b>.</p>
